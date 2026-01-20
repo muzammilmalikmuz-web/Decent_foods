@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                Decent Restaurant <i class="fa-solid fa-utensils"></i>
+                <div class="logo-img"><img src="images/gallery/logo-image.jpg" alt="Restaurant"></div> 
+            </div>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <nav class="pages" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+        </div>
+    </header>
+     
+     <!-- Home Section -->
+     <section id="home" class="home-section">
+        <div class="img-container">
+            <img src="images/gallery/restaurant.jpg" alt="Description of image" class="background-image">
+            <div class="overlay-text">
+                <h1>Welcome to Decent Restaurant <i class="fa-solid fa-utensils"></i></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis placeat odio corrupti autem beatae</p>
+                <button id="order-now">Order Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+     </section>
+        
+     <!-- About Section -->
+     <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>About Our Restaurant</h1>
+                    <h2>Our Specialist</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                        Welcome to Decent Restaurant, where culinary excellence meets warm hospitality.
+                        Our talented chefs bring years of experience creating delicious dishes using only
+                        the finest ingredients.
+                    </p>
+                    <p>
+                        We pride ourselves on delivering an unforgettable dining experience that keeps
+                        our guests coming back for more. From our carefully curated menu to our inviting
+                        atmosphere, every detail is designed with you in mind.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/gallery/restaurant.jpg" alt="About Our Restaurant">
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Menu Section -->
+     <section id="menu" class="menu-section">
+        <div class="menu-container">
+            <h1>Our Menu</h1>
+            <div class="menu-content">
+                <div class="menu-category">
+                    <h2>Appetizers</h2>
+                    <div class="menu-item">
+                        <h3>Bruschetta</h3>
+                        <p>Toasted bread topped with fresh tomatoes, basil, and garlic</p>
+                        <span class="price">$8.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Calamari</h3>
+                        <p>Crispy fried squid served with marinara sauce</p>
+                        <span class="price">$12.99</span>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h2>Main Courses</h2>
+                    <div class="menu-item">
+                        <h3>Grilled Salmon</h3>
+                        <p>Fresh Atlantic salmon with seasonal vegetables</p>
+                        <span class="price">$24.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Ribeye Steak</h3>
+                        <p>12oz premium cut with mashed potatoes and asparagus</p>
+                        <span class="price">$32.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h2>Desserts</h2>
+                    <div class="menu-item">
+                        <h3>Tiramisu</h3>
+                        <p>Classic Italian dessert with coffee and mascarpone</p>
+                        <span class="price">$7.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Warm chocolate cake with vanilla ice cream</p>
+                        <span class="price">$8.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>123 Restaurant Street, Food City, FC 12345</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>info@decentrestaurant.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Mon-Sun: 11:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
